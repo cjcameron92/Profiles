@@ -1,0 +1,5 @@
+main: com.vertmix.profiles.plugin.ProfilePlugin
+version: 1.0
+name: Profiles
+api-version: 1.18
+depend: [helper, helper-mongo]
