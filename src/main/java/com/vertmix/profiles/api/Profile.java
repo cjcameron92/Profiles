@@ -57,4 +57,5 @@ public class Profile {
         for (String message : messages)
             packetService.send(new ProfileMessagePacket(profile.getPlayerName(), message));
     }
+
 }
